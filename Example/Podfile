@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WBAssetPicker_Example' do
+  pod 'WBAssetPicker', :path => '../'
+
+  target 'WBAssetPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
