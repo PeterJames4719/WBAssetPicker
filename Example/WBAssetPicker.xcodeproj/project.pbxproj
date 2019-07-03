@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D6CA05085DA0015703BA5F /* libPods-WBAssetPicker_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2232EE8A5D85815898A1963 /* libPods-WBAssetPicker_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9A7D6716C8C00851DEDBD9C7 /* Pods_WBAssetPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E3424968758C99B9BA0B5 /* Pods_WBAssetPicker_Tests.framework */; };
-		DE33FA61DBD38E020EEA04DE /* Pods_WBAssetPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5E7B7D62F15B7D8A068511 /* Pods_WBAssetPicker_Example.framework */; };
+		E97D30DCFA3BD402AE8A6CF0 /* libPods-WBAssetPicker_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 037F237FBFDF089BDA13D1DE /* libPods-WBAssetPicker_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C5E7B7D62F15B7D8A068511 /* Pods_WBAssetPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBAssetPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		037F237FBFDF089BDA13D1DE /* libPods-WBAssetPicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WBAssetPicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		433ADE74DBA5F2510F48B7DD /* Pods-WBAssetPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBAssetPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WBAssetPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBAssetPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		757F6A8901985F13C1B30D59 /* WBAssetPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WBAssetPicker.podspec; path = ../WBAssetPicker.podspec; sourceTree = "<group>"; };
+		757F6A8901985F13C1B30D59 /* WBAssetPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WBAssetPicker.podspec; path = ../WBAssetPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C7814D1001F298F2FDF4118 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8C7814D1001F298F2FDF4118 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9068965D21DDAF3FE8227DB4 /* Pods-WBAssetPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBAssetPicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A76E3424968758C99B9BA0B5 /* Pods_WBAssetPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBAssetPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2232EE8A5D85815898A1963 /* libPods-WBAssetPicker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WBAssetPicker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22B6A53030856F3D52528DC /* Pods-WBAssetPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBAssetPicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WBAssetPicker_Tests/Pods-WBAssetPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA494516E2BAB9F45D6C6571 /* Pods-WBAssetPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBAssetPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-WBAssetPicker_Tests/Pods-WBAssetPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E8DCA7985D2F02CA3CD376F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E8DCA7985D2F02CA3CD376F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DE33FA61DBD38E020EEA04DE /* Pods_WBAssetPicker_Example.framework in Frameworks */,
+				E97D30DCFA3BD402AE8A6CF0 /* libPods-WBAssetPicker_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9A7D6716C8C00851DEDBD9C7 /* Pods_WBAssetPicker_Tests.framework in Frameworks */,
+				22D6CA05085DA0015703BA5F /* libPods-WBAssetPicker_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2C5E7B7D62F15B7D8A068511 /* Pods_WBAssetPicker_Example.framework */,
-				A76E3424968758C99B9BA0B5 /* Pods_WBAssetPicker_Tests.framework */,
+				037F237FBFDF089BDA13D1DE /* libPods-WBAssetPicker_Example.a */,
+				B2232EE8A5D85815898A1963 /* libPods-WBAssetPicker_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				B22B6A53030856F3D52528DC /* Pods-WBAssetPicker_Tests.debug.xcconfig */,
 				BA494516E2BAB9F45D6C6571 /* Pods-WBAssetPicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5E185D30F46A6BC21178E83C /* [CP] Embed Pods Frameworks */,
+				6405D73BFB08BEF0525DF811 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,22 +295,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5E185D30F46A6BC21178E83C /* [CP] Embed Pods Frameworks */ = {
+		6405D73BFB08BEF0525DF811 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WBAssetPicker/WBAssetPicker.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example-resources.sh",
+				"${PODS_ROOT}/../../WBAssetPicker/Assets/WBAssetCell.xib",
+				"${PODS_ROOT}/../../WBAssetPicker/Assets/wb_ap_selected@2x.png",
+				"${PODS_ROOT}/../../WBAssetPicker/Assets/wb_ap_selected@3x.png",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBAssetPicker.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WBAssetCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wb_ap_selected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wb_ap_selected@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBAssetPicker_Example/Pods-WBAssetPicker_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA1A64BA19C988C457AA0E36 /* [CP] Check Pods Manifest.lock */ = {

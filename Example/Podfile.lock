@@ -1,0 +1,16 @@
+PODS:
+  - WBAssetPicker (1.0.0)
+
+DEPENDENCIES:
+  - WBAssetPicker (from `../`)
+
+EXTERNAL SOURCES:
+  WBAssetPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBAssetPicker: 7a0a9ce3cb77b7c388586dd95da60c3f53bd44bd
+
+PODFILE CHECKSUM: cea53d5b9c245aa110ab707d879d34a2ee3c1067
+
+COCOAPODS: 1.7.2

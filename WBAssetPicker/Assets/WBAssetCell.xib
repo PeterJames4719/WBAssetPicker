@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WBAssetCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dzF-aG-P4f">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLu-5N-p5c">
+                        <rect key="frame" x="90" y="6" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="4za-W4-ZWC"/>
+                            <constraint firstAttribute="width" constant="24" id="QY7-za-whz"/>
+                        </constraints>
+                        <connections>
+                            <action selector="selectBtnClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Jb0-kw-g2L"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dzF-aG-P4f" secondAttribute="bottom" id="HIl-IH-DDr"/>
+                <constraint firstAttribute="trailing" secondItem="LLu-5N-p5c" secondAttribute="trailing" constant="6" id="M0a-o9-CmL"/>
+                <constraint firstItem="dzF-aG-P4f" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rrh-Ik-umO"/>
+                <constraint firstItem="LLu-5N-p5c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="S9P-rY-hSW"/>
+                <constraint firstItem="dzF-aG-P4f" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gfN-WG-Oey"/>
+                <constraint firstAttribute="trailing" secondItem="dzF-aG-P4f" secondAttribute="trailing" id="mo2-iX-LO2"/>
+            </constraints>
+            <size key="customSize" width="170" height="143"/>
+            <connections>
+                <outlet property="imgView" destination="dzF-aG-P4f" id="kZA-LX-ddn"/>
+                <outlet property="selectBtn" destination="LLu-5N-p5c" id="aP4-Js-TVK"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="100"/>
+        </collectionViewCell>
+    </objects>
+</document>

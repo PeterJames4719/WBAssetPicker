@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WBAssetPicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WBAssetPicker.'
+  s.version          = '1.0.0'
+  s.summary          = 'An image picker.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,17 +24,17 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/PeterJames4719/WBAssetPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PeterJames4719' => 'daasan123@163.com' }
+  s.author           = { 'PeterJames4719' => '' }
   s.source           = { :git => 'https://github.com/PeterJames4719/WBAssetPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WBAssetPicker/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WBAssetPicker' => ['WBAssetPicker/Assets/*.png']
-  # }
+  s.resource  = 'WBAssetPicker/Assets/*.xib', 'WBAssetPicker/Assets/*.png'
+#   s.resource_bundles = {
+#     'WBAssetPicker' => ['WBAssetPicker/Assets/*.png']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

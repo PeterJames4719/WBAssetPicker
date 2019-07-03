@@ -1,0 +1,6 @@
+framework module Pods_WBAssetPicker_Tests {
+  umbrella header "Pods-WBAssetPicker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

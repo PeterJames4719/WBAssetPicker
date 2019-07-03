@@ -1,0 +1,1 @@
+../../../../../WBAssetPicker/Classes/WBAssetCell.h
